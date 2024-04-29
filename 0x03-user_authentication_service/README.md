@@ -1,7 +1,7 @@
 Curriculum <br>
 **Short Specialization** <br>
 
-# 0x00. Personal data
+# 0x03. User authentication service
 
 `Back-end` `Authentification`
 
@@ -15,18 +15,19 @@ _For this project, look at these concepts:_
 
 **Read or watch:**
 
-* [What is PII, non-PII, and Personal Data?](https://www.piwik.pro/blog/what-is-pii-personal-data/)
-* [logging documentation](https://www.docs.python.org/3/library/logging.html)
-* [bcrypt package](https://www.github.com/pyca/bcrypt/)
-* [Logging to Files, Setting Levels, and Formatting](https://www.youtube.com/watch?v=-ARI4Cz-awo)
+* [Flask documentation](https://www.flask.palletsprojects.com/en/2.2.x/quickstart/)
+* [Requests module](https://www.requests.kennethreitz.org/en/latest/user/quickstart/)
+* [HTTP status codes](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
 
 ## General Requirement & Setup
 
-* All files intrepreted/compiled on Ubuntu 18.04 LTS using `python3` (version 3.7)
+* Allowed editors: `vi`, `vim`, `emacs`
+* All files intrepreted/compiled on Ubuntu 18.04 LTS using `python3` (version3.7)
 * All files should end with a new line
 * The first line of files should be exactly shebang `#!/usr/bin/env python3`
 * Mandatory `README.md` file at the root of the project folder/directory
 * Code use the `pycodestyle` style (version 2.5)
+* You should use `SQLAlchemy` 1.3.x
 * All files must be executable
 * Length of file tested using `wc`
 * All modules should have documentation (`python3 -c 'print(__import__("my_module").__doc__)'`)
@@ -34,5 +35,15 @@ _For this project, look at these concepts:_
 * All functions (inside and outside a class) should have a documentation (`python3 -c 'print(__import__("my_module").my_function.__doc__)'` and `python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'`)
 * A documentation is a real sentence explaining purpose of the module, class or method (length will be verified)
 * All functions should be type annotated
+* The flask app should only interact with `Auth` and never with `DB` directly
+* Only public methods of `Auth` and `DB` should be used outside these classes
+
+## Setup
+
+You will need to install `bcrypt`
+
+```bash
+pip3 install bcrypt
+```
 
 ## Finally...

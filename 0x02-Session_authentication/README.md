@@ -1,7 +1,7 @@
 Curriculum <br>
 **Short Specialization** <br>
 
-# 0x00. Personal data
+# 0x02. Session authentication
 
 `Back-end` `Authentification`
 
@@ -15,12 +15,14 @@ _For this project, look at these concepts:_
 
 **Read or watch:**
 
-* [What is PII, non-PII, and Personal Data?](https://www.piwik.pro/blog/what-is-pii-personal-data/)
-* [logging documentation](https://www.docs.python.org/3/library/logging.html)
-* [bcrypt package](https://www.github.com/pyca/bcrypt/)
-* [Logging to Files, Setting Levels, and Formatting](https://www.youtube.com/watch?v=-ARI4Cz-awo)
+* [REST API Authentication Mechanisms](https://www.youtube.com/watch?v=501dpx2IjGY)
+* [HTTP Cookie](https://www.developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cookie)
+* [Flask](https://www.palletsprojects.com/p/flask/)
+* [Flask Cookie](https://www.palletsprojects.com/en/2.2.x/quickstart/)
 
 ## General Requirement & Setup
+
+#### Python Scripts
 
 * All files intrepreted/compiled on Ubuntu 18.04 LTS using `python3` (version 3.7)
 * All files should end with a new line
@@ -33,6 +35,7 @@ _For this project, look at these concepts:_
 * All classes should have documentation (`python3 -c 'print(__import__("my_module").MyClass.__doc__)'`)
 * All functions (inside and outside a class) should have a documentation (`python3 -c 'print(__import__("my_module").my_function.__doc__)'` and `python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'`)
 * A documentation is a real sentence explaining purpose of the module, class or method (length will be verified)
-* All functions should be type annotated
 
 ## Finally...
+
+General Learning
